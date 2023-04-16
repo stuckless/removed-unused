@@ -1,3 +1,5 @@
+[![Unit Tests](https://github.com/stuckless/removed-unused/actions/workflows/node.js.yml/badge.svg)](https://github.com/stuckless/removed-unused/actions/workflows/node.js.yml)
+
 # Remove Unused
 
 A command-line tool and library for removing unused imports and variables from JavaScript files with support for React JSX.
