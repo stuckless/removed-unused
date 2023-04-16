@@ -1,0 +1,33 @@
+{
+  "name": "remove-unused",
+  "version": "1.0.0",
+  "description": "A command-line tool and library to remove unused imports and variables from JavaScript files",
+  "main": "remove-unused.js",
+  "bin": {
+    "remove-unused": "cli.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "javascript",
+    "unused",
+    "imports",
+    "variables"
+  ],
+  "author": "Sean Stuckless",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/generator": "^7.16.7",
+    "@babel/parser": "^7.16.7",
+    "@babel/traverse": "^7.16.7",
+    "yargs": "^17.3.1"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/remove-unused.git"
+  }
+}
